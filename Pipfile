@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+datasets = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+jupyter = "*"
+ipykernel = "*"
+evaluate = "*"
+sklearn = "*"
+scipy = "*"
+scikit-learn = "*"
+accelerate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.16"
